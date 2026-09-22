@@ -1,3 +1,2 @@
-# paymenttransactionapi
-Small api controller
-Small ASP.NET Core payment transaction API. This controller handles http endpoints, the service contains the application logic and uses entity framework to handle persistence through DbContext. This was strengthened by using dependency injection to provide service and database context as required.
+# paymenttransactionapi 
+Small ASP.NET Core payment transaction API. This controller handles http endpoints,using GET and POST to retrieve and send transactions, PaymentService contains the application logic and uses entity framework to handle access to the database via asynchronous methods, via PaymentDbContext being used as an Entity Framework. This was strengthened by using dependency injection to provide PaymentService and PaymentDbContext to classes as required.
